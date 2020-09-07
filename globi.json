@@ -7,6 +7,8 @@
   "dcterms:bibliographicCitation" : "Fricke, E.C., Svenning, J. Accelerating homogenization of the global plant–frugivore meta-network. Nature 585, 74–78 (2020). https://doi.org/10.1038/s41586-020-2640-y",
   "interactionTypeName" : "eats",
   "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002470",
+  "targetBodyPartName" : "fruit",
+  "targetBodyPartId" : "http://purl.obolibrary.org/obo/PO_0009001",
   "delimiter" : "\t",
   "headerRowCount" : 1,
   "null" : [ "" ],
