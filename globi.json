@@ -1,0 +1,176 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "url" : "net.long0.tsv",
+  "dcterms:bibliographicCitation" : "Fricke, E.C., Svenning, J. Accelerating homogenization of the global plant–frugivore meta-network. Nature 585, 74–78 (2020). https://doi.org/10.1038/s41586-020-2640-y",
+  "interactionTypeName" : "eats",
+  "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002470",
+  "delimiter" : "\t",
+  "headerRowCount" : 1,
+  "null" : [ "" ],
+  "tableSchema" : {
+    "columns" : [ {
+      "name" : "referenceCitation",
+      "titles" : "study.id",
+      "datatype" : "string"
+    }, {
+      "name" : "net.id",
+      "titles" : "net.id",
+      "datatype" : "string"
+    }, {
+      "name" : "value",
+      "titles" : "value",
+      "datatype" : "string"
+    }, {
+      "name" : "animal.id",
+      "titles" : "animal.id",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonName",
+      "titles" : "animal.accepted.species",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonGenus",
+      "titles" : "animal.genus",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonFamily",
+      "titles" : "animal.family",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonOrder",
+      "titles" : "animal.order",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonClass",
+      "titles" : "animal.class",
+      "datatype" : "string"
+    }, {
+      "name" : "animal.group",
+      "titles" : "animal.group",
+      "datatype" : "string"
+    }, {
+      "name" : "plant.id",
+      "titles" : "plant.id",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonName",
+      "titles" : "plant.accepted.species",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonGenus",
+      "titles" : "plant.genus",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonFamily",
+      "titles" : "plant.family",
+      "datatype" : "string"
+    }, {
+      "name" : "fleshy",
+      "titles" : "fleshy",
+      "datatype" : "string"
+    }, {
+      "name" : "decimalLatitude",
+      "titles" : "latitude",
+      "datatype" : "string"
+    }, {
+      "name" : "decimalLongitude",
+      "titles" : "longitude",
+      "datatype" : "string"
+    }, {
+      "name" : "localityId",
+      "titles" : "locality.id",
+      "datatype" : "string"
+    }, {
+      "name" : "localityName",
+      "titles" : "locality",
+      "datatype" : "string"
+    }, {
+      "name" : "region",
+      "titles" : "region",
+      "datatype" : "string"
+    }, {
+      "name" : "continental.island",
+      "titles" : "continental.island",
+      "datatype" : "string"
+    }, {
+      "name" : "oceanic.island",
+      "titles" : "oceanic.island",
+      "datatype" : "string"
+    }, {
+      "name" : "eventDate",
+      "titles" : "year",
+      "datatype" : "string"
+    }, {
+      "name" : "plant.coverage",
+      "titles" : "plant.coverage",
+      "datatype" : "string"
+    }, {
+      "name" : "plant.sampling.type",
+      "titles" : "plant.sampling.type",
+      "datatype" : "string"
+    }, {
+      "name" : "target.birds",
+      "titles" : "target.birds",
+      "datatype" : "string"
+    }, {
+      "name" : "target.bats",
+      "titles" : "target.bats",
+      "datatype" : "string"
+    }, {
+      "name" : "target.primates",
+      "titles" : "target.primates",
+      "datatype" : "string"
+    }, {
+      "name" : "target.mamm.carns",
+      "titles" : "target.mamm.carns",
+      "datatype" : "string"
+    }, {
+      "name" : "target.mamm.herbs",
+      "titles" : "target.mamm.herbs",
+      "datatype" : "string"
+    }, {
+      "name" : "target.mamm.others",
+      "titles" : "target.mamm.others",
+      "datatype" : "string"
+    }, {
+      "name" : "target.fish",
+      "titles" : "target.fish",
+      "datatype" : "string"
+    }, {
+      "name" : "target.herps",
+      "titles" : "target.herps",
+      "datatype" : "string"
+    }, {
+      "name" : "specify.nfm.targets",
+      "titles" : "specify.nfm.targets",
+      "datatype" : "string"
+    }, {
+      "name" : "reg",
+      "titles" : "reg",
+      "datatype" : "string"
+    }, {
+      "name" : "plant.native.status",
+      "titles" : "plant.native.status",
+      "datatype" : "string"
+    }, {
+      "name" : "animal.native.status",
+      "titles" : "animal.native.status",
+      "datatype" : "string"
+    }, {
+      "name" : "plant.introduced.anywhere",
+      "titles" : "plant.introduced.anywhere",
+      "datatype" : "string"
+    }, {
+      "name" : "animal.introduced.anywhere",
+      "titles" : "animal.introduced.anywhere",
+      "datatype" : "string"
+    }, {
+      "name" : "interaction.introduced",
+      "titles" : "interaction.introduced",
+      "datatype" : "string"
+    } ]
+  }
+}
