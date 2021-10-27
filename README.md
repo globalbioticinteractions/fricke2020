@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/globalbioticinteractions/fricke2020.svg)](https://travis-ci.com/globalbioticinteractions/fricke2020) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/fricke2020)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/fricke2020)
+[![Build Status](https://app.travis-ci.com/globalbioticinteractions/fricke2020.svg)](https://app.travis-ci.com/globalbioticinteractions/fricke2020) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/fricke2020)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/fricke2020)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
